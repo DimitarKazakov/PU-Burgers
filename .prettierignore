@@ -1,0 +1,24 @@
+#? Tip! Base your .prettierignore on .gitignore and .eslintignore (if you have one).
+
+#! Dependencies
+node_modules/
+package-lock.json
+
+#! Testing
+coverage/
+
+#! Production
+build/
+dist/
+
+#! Misc
+.DS_Store
+
+**/*.git
+**/*.svn
+**/*.hg
+**/*.svg
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

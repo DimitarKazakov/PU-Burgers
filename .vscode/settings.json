@@ -1,0 +1,91 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  //! Better Comments Extension Config
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "TODO:",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "NOTE:",
+      "color": "#E73065",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "FIXME:",
+      "color": "#75E6DA",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+  ],
+  //! Todo Tree Extension Config
+  "todo-tree.general.tags": ["TODO:", "NOTE:", "FIXME:"],
+  "todo-tree.tree.autoRefresh": true,
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.highlights.customHighlight": {
+    "TODO:": {
+      "foreground": "#FF8C00",
+      "type": "text",
+      "icon": "checklist"
+    },
+    "NOTE:": {
+      "foreground": "#E73065",
+      "type": "text",
+      "icon": "pencil"
+  },
+    "FIXME:": {
+      "foreground": "#75E6DA",
+      "type": "text",
+      "icon": "bug"
+    }
+  }
+}

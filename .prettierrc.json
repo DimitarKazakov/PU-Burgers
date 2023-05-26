@@ -1,0 +1,22 @@
+{
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "bracketSameLine": true,
+  "arrowParens": "always",
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrder": [
+    "^(react(/.*)?$)|^(react-(.*)$)",
+    "^(express(/.*)?$)|^(express:(.*)$)",
+    "^(node(/.*)?$)|^(node:(.*)$)|^(os(/.*)?$)|^(fs(/.*)?$)|^(net(/.*)?$)|^(path(/.*)?$)|^(url(/.*)?$)|^(events(/.*)?$)|^(http(/.*)?$)|^(https(/.*)?$)|^(console(/.*)?$)|^(assert(/.*)?$)|^(process(/.*)?$)|^(cluster(/.*)?$)|^(perf_hooks(/.*)?$)|^(crypto(/.*)?$)|^(buffer(/.*)?$)|^(dns(/.*)?$)|^(child_processes(/.*)?$)|^(readline(/.*)?$)|^(util(/.*)?$)|^(querystring(/.*)?$)|^(tls(/.*)?$)|^(dgram(/.*)?$)|^(string_decoder(/.*)?$)",
+    "<THIRD_PARTY_MODULES>",
+    "^src/(.*)$",
+    "^.{1,2}/(.*)$"
+  ]
+}

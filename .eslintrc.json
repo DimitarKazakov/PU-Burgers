@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "prettier", //? adds .prettierrc file rules https://prettier.io/docs/en/options.html
+        "eslint:recommended", //? eslint common rules https://eslint.org/docs/latest/rules/
+        "plugin:react/recommended", //? react rules https://wwxw.npmjs.com/package/eslint-plugin-react
+        "plugin:@typescript-eslint/recommended", //? typescript rules https://typescript-eslint.io/rules/,
+        "plugin:jest/recommended" //? jest rules https://github.com/jest-community/eslint-plugin-jest/blob/main/README.md#shareable-configurations
+    ],
+    "overrides": [
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint",
+        "jest"
+    ],
+    "rules": {
+        //! eslint rules
+        "array-callback-return": "error",
+        "no-constant-binary-expression": "error",
+        "no-constructor-return": "error",
+        "no-duplicate-imports": "error",
+        "no-self-compare": "error",
+        "no-unmodified-loop-condition": "error",
+        "no-unreachable-loop": "error",
+        //! react rules
+        "react/react-in-jsx-scope": "off",
+        //! typescript rules
+        "@typescript-eslint/no-unused-vars": ["warn"],
+        "@typescript-eslint/array-type": ["warn", {"default": "array", "readonly": "array"}],
+        //! jest rules
+        "jest/no-disabled-tests": "warn"
+    }
+}
